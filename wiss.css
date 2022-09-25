@@ -20,7 +20,6 @@ article {
     top: 0px;
     left: 10px;
 }
-
 #nav-bar {
     width: 300px;
     margin: 10px;
@@ -51,7 +50,7 @@ article {
 
 .btn:hover {
     cursor: pointer;
-    background-color: rgb(245, 240, 240);
+    background-color:rgb(207, 207, 207);
 }
 
 .background {
@@ -87,7 +86,7 @@ content {
 .button {
     width: 200px;
     height: 50px;
-    padding: 10px;
+    margin:10px;
     border-radius: 100px;
     background-color: rgb(54, 94, 168);
     text-decoration: none;
@@ -179,6 +178,7 @@ a {
     display:block;
     width:300px;
     position:relative;
+    top:-50px;
     left:1320px;
 }
 .social-media-icons{
@@ -186,4 +186,19 @@ a {
     width:50px;
     padding:10px;
     float:left;
+}
+.social-media-icons:hover{
+    background-color: rgb(207, 207, 207);
+}
+.im-icons:hover{
+    background-color: rgb(207, 207, 207);
+}
+.facebook{
+    width:40px;
+    margin:5px;
+}
+.login{
+    position:relative;
+    top:-15px;
+    margin-bottom:20px;
 }
