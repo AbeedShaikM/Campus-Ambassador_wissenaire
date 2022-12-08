@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dice Challenge</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='dice.css'>
+</head>
+<body>
+    <h1 class="centre">Dice Game</h1>
+
+    <div class="centre">
+        <button id="start" type="button" class="btn btn-default btn-lg font-weight-bolder">
+            Start
+        </button>
+    </div>
+    <div id="players" class="row">
+        <div id="player1" class="player centre col-xs-12 col-md-6 col-sm-12 col-lg-6">
+            <div id="player1_name" class="font-weight-bolder">Player-1</div>
+            <img id="image1" src="dice_1.png" class="image" alt="dice_image">
+        </div>
+        <div id="player2" class="player centre col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div id="player2_name" class="font-weight-bolder">Player-2</div>
+            <img id="image2" src="dice_1.png" class="image" alt="dice_image">
+        </div>
+    </div>
+    <div class="centre">
+        <button id="but" type="button" class="btn btn-default btn-lg font-weight-bolder">
+            Play Again
+        </button>
+    </div>
+    <script src='dice.js'></script>
+</body>
+
+</html>
