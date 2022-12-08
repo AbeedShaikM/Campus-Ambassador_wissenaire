@@ -4,6 +4,7 @@
 } */
 .centre{
     /* padding:10px; */
+    font-size: 30px;
     font-weight: 600 !important;
     text-align: center;
 }
@@ -19,7 +20,6 @@
 }
 
 #but,#start{
-    font-size: 30px;
     background-color: red;
     border-radius: 5px;
 }
