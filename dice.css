@@ -3,6 +3,7 @@
     position:relative;
 } */
 .centre{
+    padding:20px;
     text-align: center;
 }
 /* #player2{
@@ -16,9 +17,9 @@
     padding: 20px;
 }
 
-/* #but,#start{
-    padding:10px;
-    font-size: 20px;
-    font-weight: 500px;
+#but,#start{
+    font-size: 30px;
+    font-weight: 600 !important;
+    background-color: red;
     border-radius: 5px;
-} */
+}
